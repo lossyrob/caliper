@@ -1,7 +1,7 @@
-To build this project with Maven:
+To build this project:
 
 1. cd caliper
-mvn eclipse:configure-workspace eclipse:eclipse install
+sbt package
 
 2. To build examples
 cd examples
